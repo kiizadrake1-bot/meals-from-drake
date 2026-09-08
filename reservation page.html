@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reservations | Drakes Foods</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="home page.html" class="logo">
+        <span class="logo-mark">D</span>
+        <span>Drakes Foods</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="home page.html">Home</a>
+        <a href="about us.html">About</a>
+        <a href="menu page.html">Menu</a>
+        <a href="reservation page.html">Reservations</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact us.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-inner">
+        <h1>Reserve your table</h1>
+        <p>Plan a relaxed lunch, family dinner, or special gathering with us in Kampala Bunamwaya.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div>
+          <div class="contact-card">
+            <h3>Reservation details</h3>
+            <ul class="contact-list">
+              <li>📞 Phone: 0757507778</li>
+              <li>📍 Location: Kampala Bunamwaya</li>
+              <li>⏰ Hours: 8:00 AM - 10:00 PM</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="form-wrap">
+          <form>
+            <div class="form-grid">
+              <div class="field">
+                <label for="name">Full name</label>
+                <input id="name" type="text" placeholder="Your name" required />
+              </div>
+
+              <div class="field">
+                <label for="phone">Phone number</label>
+                <input id="phone" type="tel" placeholder="0757507778" required />
+              </div>
+
+              <div class="field">
+                <label for="date">Date</label>
+                <input id="date" type="date" required />
+              </div>
+
+              <div class="field">
+                <label for="time">Time</label>
+                <select id="time" required>
+                  <option value="">Select time</option>
+                  <option>12:00 PM</option>
+                  <option>1:00 PM</option>
+                  <option>2:00 PM</option>
+                  <option>6:00 PM</option>
+                  <option>7:00 PM</option>
+                  <option>8:00 PM</option>
+                </select>
+              </div>
+
+              <div class="field full">
+                <label for="request">Notes</label>
+                <textarea id="request" placeholder="Tell us about your reservation, party size, or special requests."></textarea>
+              </div>
+            </div>
+
+            <div style="margin-top: 20px;">
+              <button class="submit-button" type="submit">Book now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div>
+        <strong>Drakes Foods</strong><br />
+        Phone: 0757507778<br />
+        Location: Kampala Bunamwaya
+      </div>
+      <div class="footer-links">
+        <a href="home page.html">Home</a>
+        <a href="menu page.html">Menu</a>
+        <a href="reservation page.html">Reservation</a>
+        <a href="contact us.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
